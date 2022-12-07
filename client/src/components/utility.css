@@ -1,0 +1,29 @@
+.util_box{
+    padding: 20px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.util_btn{
+    margin: 5px 0px;
+    border: none;
+    background-color: #FF6666;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.util_btn2{
+    margin: 5px 0px;
+    border: none;
+    background-color: #f6dcdc;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ff6666;
+}
+
+.util_btn2:hover{
+    background-color: #FF6666;
+    color: white;
+}

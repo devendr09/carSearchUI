@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_container{
+  padding: 5vw;
+  background-color: #d4cfcf;
+  font-family: 'Poppins', sans-serif;
+}

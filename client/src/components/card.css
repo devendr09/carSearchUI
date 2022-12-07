@@ -1,0 +1,49 @@
+.cardCollection{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 40px;
+    padding: 15px;
+    background-color: rgb(234, 231, 231);
+    border-radius: 5px;
+}
+
+.card {
+    padding: 15px 10px;
+}
+
+.price{
+    padding-top: 15px;
+}
+
+.card_btn{
+    border: none;
+    border-radius: 5px;
+}
+
+.detailCard{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details{
+    flex : 50%;
+}
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width : 1400px) {
+    .cardCollection{
+        grid-template-columns: repeat(2, 40%);
+    }
+}
+
+@media screen and (max-width : 970px) {
+    .cardCollection{
+        grid-template-columns: 70%;
+    }
+}
+
